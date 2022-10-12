@@ -1,4 +1,5 @@
 def main(input, distinct_count_chars):
+    print("input: ", input)
     total_len = len(input)
     pointer = 0
     step = 2
@@ -10,7 +11,7 @@ def main(input, distinct_count_chars):
                 return result
         pointer = pointer + 1
 
-        if (pointer == len(input)):
+        if (pointer == total_len):
             pointer = 0
             step = step + 1
     print(pointer)
@@ -22,7 +23,7 @@ def count_distinct_chars(input, distinct_count_chars):
     for char in input:
         char_dic[char] = input.count(char)
         if (char_dic[char] == distinct_count_chars):
-            print('input', input)
+            print('result: ', input)
             return input
 
 assert main("abcba", 2) == "bcb"
