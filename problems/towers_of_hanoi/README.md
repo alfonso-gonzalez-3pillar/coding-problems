@@ -15,7 +15,7 @@
 2. *You can only move the top disk from one stack onto the top of another stack or onto an empty pin.*
 3. *You can never place a disk on top of another disk that is more than `T` centimetres larger or smaller.*
 
-![alt text](towers_of_hanoi_2.png "Tower of Hanoi 2")
+![alt text](towers_of_hanoi_2.jpg "Tower of Hanoi 2")
 
 *The input will contain `10` test cases. Each test case consists of two integers `N` and `T` on a single line separated by a space (`3 <= N <= 10^6`,  `1 <= T <= 10^4`). These numbers define an instance of the Lucas' Other Tower problem where `N` is the number of disks and `T` is the tolerance factor.*
 
